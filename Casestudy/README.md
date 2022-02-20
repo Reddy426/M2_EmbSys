@@ -33,7 +33,8 @@
 
 ## Home Automation: -
 
-![CASESTUDY2](https://user-images.githubusercontent.com/98537406/154840277-d584325c-6a37-4016-b932-05b184bb54a0.png)
+![CASESTUDY2](https://user-images.githubusercontent.com/98537406/154841369-3e054d50-98e1-4bff-bc5e-8b98eb9b7167.png)
+
 
 ## Explanation:-
 
