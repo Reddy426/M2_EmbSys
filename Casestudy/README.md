@@ -67,5 +67,27 @@
 -	 It is a drop-in replacement for wired serial connections allowing transparent two way data communication. 
 -	You can simply use it for serial port replacement to establish connection between MCU
 
+# Requirements
+
+## High level requirements
+
+|RID| Description|
+|----|----|
+|HLR_1| To detect the Light intensity in the area and control it.|
+|HLR_2| To detect the atmospheric temperature in the area and control it.|
+|HLR_3| To detect any gas leak of toxic gases around area.|
+|HLR_4| To detect the motion of the object or peoples in the area.|
+|HLR_5| Remotely control the home automation from Mobile phone.|
+
+## Low level requirements
+
+|RID| Description|
+|----|----|
+|LLR_1| Light Sensor|
+|LLR_2| Temprature Sensor|
+|LLR_3| Gas Sensor|
+|LLR_4| PIR Sensor|
+|LLR_5| Bluetooth Model|
+|LLR_6| LCD Display|
 
 
