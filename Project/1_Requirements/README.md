@@ -40,7 +40,47 @@
 |LLR_5| Bluetooth Model|
 |LLR_6| LCD Display|
 
+# SWOT Analysis
+## Strength
+- Managing all of your home devices from one place.
+- Flexibility  for new devices and appliances.
+- Maximizing home security.
+- Remote control of home  functions.
+
+## Weakness
+- Security issues.
+- Dependency of internet.
+- Cost is very expensive.
+
+## opportunities
+- Increasing adoption of automated services, and governament incentive for green initiatives.
+- increasing demand for energy efficient solution and raising security concerns.
+- It undergone a significant shift.
+- As technology moves ahead and smart products become affordable, there is a growing interest among general peoples also.
+
+## Threats
+- Insufficient features and functionality
+- Sub system not integrating.
+- Too many home automation control app.
+- Lengthy delay during the construction of your project.
+# 4W & 1H 
+## What
+- Home automation refers to the automatic and electronic control of Household features, activity, and appliances.
+- in simple terms, you can easily control the utilities and features of your home via the internet to make life more convenient and secure, and even spend less on Household biills.
+
+## where
+- We can use the  home automation for lighting control, HVAC, outdoor lawn irrigation, kitchen appliances and security systems.
+
+## Why
+- With home automation system , you can remotely monitor your home appliances and ensure that all devices are safetly switched off.
+- It keeps your abode safe, and prevents accidental fires, Water leakes, Gas leakes, and other disasters.
+
+## When
+- Improved safety is one of the two reasons people opt into home automation systems.
+- systems use the collected information of connected devices and motion sensors to know when you leave the house and close the door, turn off lights etc.
 
 
-
-
+## How
+- Software Simulation. 
+- AVR compiler for code.
+- Hardware.
