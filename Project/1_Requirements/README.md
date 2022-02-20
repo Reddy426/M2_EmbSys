@@ -38,6 +38,7 @@
 |LLR_3| Gas Sensor|
 |LLR_4| PIR Sensor|
 |LLR_5| Bluetooth Model|
+|LLR_6| LCD Display|
 
 
 
