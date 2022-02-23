@@ -3,6 +3,17 @@
 
 ![CASESTUDY1](https://user-images.githubusercontent.com/98537406/154840002-83c7c161-f23a-4695-afa8-3ab9570ed1a5.png)
 
+## Components of block  diagram
+- Microcontroller.
+- Coin detection box.
+- DAC.
+- Relay drive.
+- Relay.
+- Switch.
+- Motor
+- Power supply unit consists of Rectifier and Voltage regulator.
+
+
 ## Explanation: -
 
 1.	Power supply unit: -
@@ -35,6 +46,19 @@
 
 ![Home_Automation](https://user-images.githubusercontent.com/98537406/154852675-2fe8bef2-dc2b-4f8b-bd2d-b110ded9a26c.png)
 
+
+## Components of block diagram
+- Microcontroller.
+- Relays.
+- LCD 16x2.
+- Bluetooth Model.
+- Tempreture Sensor.
+- Gas Sensor.
+- PIR Sensor.
+- Light Sensor.
+- Air conditioner.
+- Lighting system.
+- Buzzer.
 
 
 ## Explanation:-
