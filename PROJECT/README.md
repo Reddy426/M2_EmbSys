@@ -98,7 +98,7 @@
 # 3. Block diagram and Explanation
 ## 3.1 Block Diagram
 
-![AWLC](https://user-images.githubusercontent.com/98537406/155786239-ec8f6f8b-7dba-4f5a-bf2f-6b69b01bb3a9.png)
+![AWLC](https://user-images.githubusercontent.com/98537406/155814991-eab44181-451e-4cae-9b43-74e7fa88922a.png)
 
 ---
 ### 3.2 Componenets used
