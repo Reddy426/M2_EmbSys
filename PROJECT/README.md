@@ -2,28 +2,34 @@
 
 # Table of contents
 1. About Automatic water level control
-    * 1.1 [Introduction](#introduction)
-    * 1.2 [working of the system](#working-of-the-system)
+    * [1.1 Introduction](#11-introduction)
+    * [1.2 working of the system](#12-working-of-the-system)
+    * [1.3 SWOT Analysis](#13-swot-analysis)
+    * [1.4 4W & 1H](#14-4w--1h)
 2. Requirements
-    * 2.1 [HIGH Level requirements](#high-level-requirements)
-    * 2.2 [LOW Level requirements](#low-level-requirements)
+    * [2.1 HIGH Level requirements](#21-high-level-requirements)
+    * [2.2 LOW Level requirements](#22-low-level-requirements)
 3. Block diagram and Explanation
-    * 3.1 [Block Diagram](#block-diagram)
-    * 3.2 [components used](#componenets-used)
-    * 3.3 Explanation
+    * [3.1 Block Diagram](#31-block-diagram)
+    * [3.2 components used](#32-componenets-used)
+    * [3.3 Explanation of components](#33-explanation-of-components)
     - [Advantages](#advantages)
     - [Applications](#applications)
 
 
 
 
-# About Automatic water level control
-## Introduction
+# 1. About Automatic water level control
+## 1.1 Introduction
 Water is the important natural resource that should be efficiently used. Our project ‘Automatic Pump and Water Level Controller’ uses the Arduino and Ultrasonic senser. The Basic idea of the project is to ensure the proper use of water and reduce the wastage of water. This basic idea can be implemented in many fields and purposes such as irrigation in agriculture land, water pump controlling water usage monitoring etc
 
-## Working of the System
+## 1.2 Working of the System
 
 Water is the important natural resource that should be efficiently used. Our project ‘Automatic Pump and Water Level Controller’ uses the Arduino and Ultrasonic senser. The Basic idea of the project is to ensure the proper use of water and reduce the wastage of water. This basic idea can be implemented in many fields and purposes such as irrigation in agriculture land, water pump controlling water usage monitoring etc
+
+# 1.3 SWOT Analysis
+
+# 1.4 4W & 1H
 ### Advantages
 - Easy installation.
 -  Low maintenance.
@@ -43,18 +49,18 @@ Water is the important natural resource that should be efficiently used. Our pro
 
 
 
-## Requirements
+## 2. Requirements
 
-### HIGH Level requirements
+### 2.1 HIGH Level requirements
 
-### LOW Level requirements
+### 2.2 LOW Level requirements
 
-# Block diagram and Explanation
-## Block Diagram
+# 3. Block diagram and Explanation
+## 3.1 Block Diagram
 
 ![AWLC](https://user-images.githubusercontent.com/98537406/155786239-ec8f6f8b-7dba-4f5a-bf2f-6b69b01bb3a9.png)
 
-### Componenets used
+### 3.2 Componenets used
 - Arduino.
 - Ultrasonic Sensor.
 - LCD.
@@ -64,7 +70,7 @@ Water is the important natural resource that should be efficiently used. Our pro
 - DC motor.
 
 
-### Explanation
+### 3.3 Explanation of components
 1. Arduino: 
     - Arduino is an open-source electronics platform based on easy-to-use hardware and software.
     - Arduino boards are able to read inputs - light on a sensor, a finger on a button, or a Twitter message - and turn it into an output - activating a motor, turning on an LED, publishing something online.
