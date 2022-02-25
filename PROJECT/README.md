@@ -1,16 +1,23 @@
 # Automatic Water level control
 
 # Table of contents
-1. [Introduction](#introduction)
-2. [working of the system](#working-of-the-system)
+1. About Automatic water level control
+    * 1.1 [Introduction](#introduction)
+    * 1.2 [working of the system](#working-of-the-system)
+2. Requirements
+    * 2.1 [HIGH Level requirements](#high-level-requirements)
+    * 2.2 [LOW Level requirements](#low-level-requirements)
+3. Block diagram and Explanation
+    * 3.1 [Block Diagram](#block-diagram)
+    * 3.2 [components used](#componenets-used)
+    * 3.3 Explanation
     - [Advantages](#advantages)
     - [Applications](#applications)
-3. [Block Diagram](#block-diagram)
-    - [components used](#componenets-used)
-    - [Explanation](#explanation)
 
 
 
+
+# About Automatic water level control
 ## Introduction
 Water is the important natural resource that should be efficiently used. Our project ‘Automatic Pump and Water Level Controller’ uses the Arduino and Ultrasonic senser. The Basic idea of the project is to ensure the proper use of water and reduce the wastage of water. This basic idea can be implemented in many fields and purposes such as irrigation in agriculture land, water pump controlling water usage monitoring etc
 
@@ -36,6 +43,13 @@ Water is the important natural resource that should be efficiently used. Our pro
 
 
 
+## Requirements
+
+### HIGH Level requirements
+
+### LOW Level requirements
+
+# Block diagram and Explanation
 ## Block Diagram
 
 ![AWLC](https://user-images.githubusercontent.com/98537406/155786239-ec8f6f8b-7dba-4f5a-bf2f-6b69b01bb3a9.png)
