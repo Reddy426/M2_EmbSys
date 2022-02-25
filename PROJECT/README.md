@@ -13,8 +13,8 @@
     * [3.1 Block Diagram](#31-block-diagram)
     * [3.2 components used](#32-componenets-used)
     * [3.3 Explanation of components](#33-explanation-of-components)
-    - [Advantages](#advantages)
-    - [Applications](#applications)
+4. [Advantages](#advantages)
+5. [Applications](#applications)
 
 ---
 
@@ -142,7 +142,7 @@
 [Back to Contents](#table-of-contents)
 
 ---
-## Advantages
+## 4. Advantages
 - Easy installation.
 - Low maintenance.
 - Compact and elegant design.
@@ -151,7 +151,7 @@
 - It can maintain exact preset water levels.
 - Being automatic saves man power.
 ---
-## Applications
+## 5. Applications
 - Used in buildings where the manual monitoring is difficult.
 - Used in industries to control the water level and in chemical mixing etc.
 - It can be installed in metro cities where the drinking water is the only water used for all purposes which keeps the drinking water from being wasted. 
