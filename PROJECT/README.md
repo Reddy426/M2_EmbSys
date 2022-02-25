@@ -1,7 +1,7 @@
-# Automatic Water level control
+# Automatic Water level indicator & control
 
 # Table of contents
-1. About Automatic water level control
+1. About Automatic water level indicator & control
     * [1.1 Introduction](#11-introduction)
     * [1.2 working of the system](#12-working-of-the-system)
     * [1.3 SWOT Analysis](#13-swot-analysis)
@@ -16,50 +16,85 @@
     - [Advantages](#advantages)
     - [Applications](#applications)
 
+---
 
-
-
-# 1. About Automatic water level control
+# 1. About Automatic water level indicator & control
 ## 1.1 Introduction
-Water is the important natural resource that should be efficiently used. Our project ‘Automatic Pump and Water Level Controller’ uses the Arduino and Ultrasonic senser. The Basic idea of the project is to ensure the proper use of water and reduce the wastage of water. This basic idea can be implemented in many fields and purposes such as irrigation in agriculture land, water pump controlling water usage monitoring etc
+---
+* Water is the important natural resource that should be efficiently used. Our project `Automatic Water Level indicator & Controller` uses the `Arduino` and `Ultrasonic senser`. The Basic idea of the project is to ensure the proper use of water and reduce the wastage of water.
+* This basic idea can be implemented in many fields and purposes such as irrigation in agriculture land, water pump controlling water usage monitoring etc
+ * Automatic Water level indicator and controller, the name itself indicates that an electronic device or circuit kit used for controlling the water level can be termed as a Automatic water level indicator & controller.
+ * It is difficult to know the level of water in the overhead tank such that wastage of water can happen frequently.
+ *To conserve water, avoid overflow of water in the overhead tank which may cause loss of water, loss of electrical power, etc.,.
+ *Thus, an ultrasonic water level indicator & controller using `Arduino` is an innovative electronics project application for controlling water level.
 
+* Automatic Water Level indicator Controller using the Arduino project will help in automatically controlling the water motor by sensing the water level in a tank.
+* This article explains how to detect and control the water level in an overhead tank or any other container.
+* This system monitors the water level of the tank and automatically switches ON the motor whenever the tank is empty.
+---
 ## 1.2 Working of the System
+    * In this Arduino based automatic water level indicator and controller project we are going to measure the water level by using ultrasonic sensors.
+    * Basic principal of ultrasonic distance measurement is based on ECHO.
+    * When sound waves are transmitted in environment then they return back to the origin as ECHO after striking on any obstacle.
+    * So we have to only calculate its traveling time of both sounds means outgoing time and returning time to origin after striking on any obstacle.
+    * And after some calculation we can get a result that is the distance.
+    * This concept is used in our water controller project where the water motor pump is automatically turned on when water level in the tank becomes low.
+---
 
-Water is the important natural resource that should be efficiently used. Our project ‘Automatic Pump and Water Level Controller’ uses the Arduino and Ultrasonic senser. The Basic idea of the project is to ensure the proper use of water and reduce the wastage of water. This basic idea can be implemented in many fields and purposes such as irrigation in agriculture land, water pump controlling water usage monitoring etc
 
 # 1.3 SWOT Analysis
 
+
+
+
+
+[Back to Contents](#table-of-contents)
+
+---
+
 # 1.4 4W & 1H
-### Advantages
-- Easy installation.
--  Low maintenance.
-- Compact and elegant design.
-- Users can control the required level of water in over head tank. - Avoids wastage of water from tanks.
-- It can maintain exact preset water levels.
-- The  system  is  very  versatile,  a  numbers  of  tailor  made  variations  like  control  of multiple tanks or multiple pumps are possible.
-- Being automatic saves man power.
+ * What:
+      *  Automatic water level indicator & controller is an module that was created to automatically control a motor, which helps to ensure a constant reserve of water in a storage tank.
+      * These Automatic water level indicator & controllers are used to automatically fill the over-head tank when it starts or has become empty as well as monitor the water level in it.
+---
+ * Why:
+    * A water level controller helps save money by limiting the waste of water and electricity.
+    * These devices accurately regulate how much energy is used to protect against any unnecessary water/electricity usage.
+---
+* Where:
+    * It can be installed in homes, hotels, and hospitals.The power used by this controller is low and negligible.
+    * It can be installed in metro cities where the drinking water is the only water used for all purposes, which keeps the drinking water from being wasted.
+---
+* When:
+    *Automatic water level indicator & controllers switch the motor on whenever the water level drops below a certain level and shuts the motor off when the water rises well above a fixed level.
+---
+* How:
+    * Implementing the simulation by using `SimulIDE` software and  `Arduino IDE` sourse Code.
+---
 
-### Applications
-- Used in buildings where the manual monitoring is difficult.
-- Used in industries to control the water level and in chemical mixing etc.
-- It can be installed in metro cities where the drinking water is the only water used for all purposes which keeps the drinking water from being wasted. 
-- Fuel tank level gauging.
-- Oil tank level control.
-- Pool water level control.
+[Back to Contents](#table-of-contents)
 
-
-
+---
 ## 2. Requirements
 
 ### 2.1 HIGH Level requirements
 
 ### 2.2 LOW Level requirements
 
+
+---
+
+[Back to Contents](#table-of-contents)
+
+---
+
+
 # 3. Block diagram and Explanation
 ## 3.1 Block Diagram
 
 ![AWLC](https://user-images.githubusercontent.com/98537406/155786239-ec8f6f8b-7dba-4f5a-bf2f-6b69b01bb3a9.png)
 
+---
 ### 3.2 Componenets used
 - Arduino.
 - Ultrasonic Sensor.
@@ -69,42 +104,71 @@ Water is the important natural resource that should be efficiently used. Our pro
 - LED.
 - DC motor.
 
-
+---
 ### 3.3 Explanation of components
-1. Arduino: 
+1. `Arduino:` 
     - Arduino is an open-source electronics platform based on easy-to-use hardware and software.
     - Arduino boards are able to read inputs - light on a sensor, a finger on a button, or a Twitter message - and turn it into an output - activating a motor, turning on an LED, publishing something online.
     - You can tell your board what to do by sending a set of instructions to the microcontroller on the board.
     - To do so you use the Arduino programming language (based on Wiring), and the Arduino Software (IDE), based on Processing.
 
-2. Ultrasonic Sensor:
+2. `Ultrasonic Sensor:`
     - An ultrasonic Sensor is an electronic device that measures the distance of a target object by emitting ultrasonic sound wave, and converts the reflected sound into an electical signal.
     - It is economical sensor provides 2.5cm to 400cm of non-contact measurement funtionality with a ranging accuracy that can reach upto 3mm, and it includes an ultrasonic trasmitter, a receiver and a control circuit.
 
-3. LCD:
+3. `LCD:`
     - LCD csreen is a flat-panel display, electronic visual display that uses the light-modulating properties of liquid crystal and LCD's are available to display arbitrary images, Preset words, digits and 7-segment dispalys.
 
-4. BJT:
+4. `BJT:`
     - BJT is a Bipolar Junction Transistor is a three-terminal semiconductor device that consists of two p-n junctions which are able to amplify or magnify a signal.
     - it is a current controlled device.
     - The three-terminals of BJT are base, the collector and the emitter.
     - It does require an external source of DC power supply to carry out the amplification process.
 
-5. Switch: 
+5. `Switch:` 
     - It is a small
     control for an electrial device used to make or break a connection in a circuit.
 
-6. LED: 
+6. `LED:`
     - LED is a light-emitting diode.
     - It is a semi-conductor diode that emits light when conducting current.
 
-7. DC motor:
+7. `DC motor:`
     - A DC motor is a class of electrical motors that converts direct current electrical energy into mechanical energy.
 
+---
+
+
+[Back to Contents](#table-of-contents)
+
+---
+## Advantages
+- Easy installation.
+- Low maintenance.
+- Compact and elegant design.
+- Users can control the required level of water in over head tank. 
+- Avoids wastage of water from tanks.
+- It can maintain exact preset water levels.
+- Being automatic saves man power.
+---
+## Applications
+- Used in buildings where the manual monitoring is difficult.
+- Used in industries to control the water level and in chemical mixing etc.
+- It can be installed in metro cities where the drinking water is the only water used for all purposes which keeps the drinking water from being wasted. 
+- Fuel tank level gauging.
+- Oil tank level control.
+- Pool water level control.
+
+---
 
 ## Reference
 - [Study1](https://www.thehindu.com/news/cities/Delhi/40-per-cent-of-water-supply-gets-wasted-Study/article16836247.ece )
 - [Study2](https://www.ijraset.com/fileserve.php?FID=14330)
 
+---
 ## Neaws on wastage of water
 [over-head-tank-water-wastage](https://www.deccanherald.com/city/bwssb-targets-overhead-tank-water-wastage-in-new-move-773145.html)
+
+---
+
+[Back to Contents](#table-of-contents)
