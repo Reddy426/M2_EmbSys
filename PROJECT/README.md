@@ -82,13 +82,8 @@
  |RID |Discreption |
  |---|---|
  |HLR1 |It shall show the status of the water level in the tank. |
- |HLR2 | To switch ON the motor on the following conditions :-
-  - When the water level of the overhead tank is lower than the lowest sense level.
-  - The motor shall not be switched ON when there is no sufficient water available in the well/ground level tank |
- |HLR3 |To switch OFF the motor on the following conditions
-  - When the water level of the overhead tank reaches the highest sense level.
-  - When the well/ground level tank water is drained while pumping.
-  - When the motor ON time exceeds preset time(highest level sensor not working).|
+ |HLR2 | It shall  switch ON the motor on the following condition : * When the water level of the overhead tank is lower than the lowest sense level.|
+ |HLR3 |It shall switch OFF the motor on the following condition: * When the water level of the overhead tank reaches the highest sense level.|
 
 ### 2.2 LOW Level requirements
 
