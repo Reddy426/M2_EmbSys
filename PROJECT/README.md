@@ -17,8 +17,10 @@
 4. Test plans
    * [4.1 High level test plan](#41-high-level-test-plans)
    * [4.2 Low lwvwl test plan](#42-low-level-test-plans)
-6. [Advantages](#advantages)
-7. [Applications](#applications)
+5. [Advantages](#5-advantages)
+6. [Applications](#6-applications)
+
+[Reference](#reference)
 
 ---
 
@@ -46,6 +48,11 @@
     * This concept is used in our water controller project where the water motor pump is automatically turned on when water level in the tank becomes low.
 ---
 
+
+[Back to Contents](#table-of-contents)
+
+
+---
 
 # 1.3 SWOT Analysis
 
