@@ -9,7 +9,7 @@
 2. Requirements
     * [2.1 HIGH Level requirements](#21-high-level-requirements)
     * [2.2 LOW Level requirements](#22-low-level-requirements)
-3. Block diagram and Explanation
+3. Flow chart, Block diagram and Explanation
     * [3.1 Flow chart](#31-flow-chart)
     * [3.2 Block Diagram](#32-block-diagram)
     * [3.3 components used](#33-componenets-used)
@@ -109,12 +109,14 @@
 ---
 
 
-# 3. Block diagram and Explanation
+# 3. Flow chart, Block diagram and Explanation
 ## 3.1 Flow chart
 
 ![AWLCFC](https://user-images.githubusercontent.com/98537406/155820422-ae0ec75d-fe6d-4d64-939a-be945e17d177.png)
 
+[Back to Contents](#table-of-contents)
 
+---
 ## 3.2 Block Diagram
 
 ![AWLC](https://user-images.githubusercontent.com/98537406/155814991-eab44181-451e-4cae-9b43-74e7fa88922a.png)
@@ -128,6 +130,8 @@
 - Switch.
 - LED.
 - DC motor.
+
+[Back to Contents](#table-of-contents)
 
 ---
 
