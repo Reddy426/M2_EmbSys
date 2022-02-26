@@ -10,9 +10,10 @@
     * [2.1 HIGH Level requirements](#21-high-level-requirements)
     * [2.2 LOW Level requirements](#22-low-level-requirements)
 3. Block diagram and Explanation
-    * [3.1 Block Diagram](#31-block-diagram)
-    * [3.2 components used](#32-componenets-used)
-    * [3.3 Explanation of components](#33-explanation-of-components)
+    * [3.1 Flow chart](#31-flow-chart)
+    * [3.2 Block Diagram](#32-block-diagram)
+    * [3.3 components used](#33-componenets-used)
+    * [3.4 Explanation of components](#34-explanation-of-components)
 4. [Advantages](#advantages)
 5. [Applications](#applications)
 
@@ -44,6 +45,7 @@
 
 # 1.3 SWOT Analysis
 
+![SWOT](https://user-images.githubusercontent.com/98537406/155819233-2f1a0379-3d83-4d67-87e4-a3b72dd8a1ac.png)
 
 
 
@@ -81,12 +83,20 @@
 
  |RID |Discreption |
  |---|---|
- |HLR1 |It shall show the status of the water level in the tank. |
- |HLR2 | It shall  switch ON the motor on the following condition : * When the water level of the overhead tank is lower than the lowest sense level.|
- |HLR3 |It shall switch OFF the motor on the following condition: * When the water level of the overhead tank reaches the highest sense level.|
+ |HLR1 |Water level Indicator & controller shall be automated. |
+ |HLR2 |System shall show the status of the water level in the tank. |
+ |HLR3 | System shall  switch ON the motor |
+ |HLR3 |System shall switch OFF the motor|
 
 ### 2.2 LOW Level requirements
 
+
+ |RID |Discreption |
+ |---|---|
+ |LLR1 |Ultrasonic sensor shall calculate the Level of the water in overhead tank |
+ |LLR2 | LCD shall display the Water level and Motor status. |
+ |LLR3 | Motor shall be switched ON, on the following condition : * When the water level of the overhead tank is lower than the lowest sense level. |
+ |LLR4 | Motor shall be switched OFF,  on the following condition: * When the water level of the overhead tank reaches the highest sense level. |
 
 ---
 
@@ -96,12 +106,17 @@
 
 
 # 3. Block diagram and Explanation
-## 3.1 Block Diagram
+## 3.1 Flow chart
+
+![AWLCFC](https://user-images.githubusercontent.com/98537406/155820422-ae0ec75d-fe6d-4d64-939a-be945e17d177.png)
+
+
+## 3.2 Block Diagram
 
 ![AWLC](https://user-images.githubusercontent.com/98537406/155814991-eab44181-451e-4cae-9b43-74e7fa88922a.png)
 
 ---
-### 3.2 Componenets used
+### 3.3 Componenets used
 - Arduino.
 - Ultrasonic Sensor.
 - LCD.
@@ -116,7 +131,7 @@
     - Simulation (`SimulIDE`)
     - Code (`Arduino IDE`)
 
-### 3.3 Explanation of components
+### 3.4 Explanation of components
 1. `Arduino:` 
     - Arduino is an open-source electronics platform based on easy-to-use hardware and software.
     - Arduino boards are able to read inputs - light on a sensor, a finger on a button, or a Twitter message - and turn it into an output - activating a motor, turning on an LED, publishing something online.
