@@ -14,8 +14,11 @@
     * [3.2 Block Diagram](#32-block-diagram)
     * [3.3 components used](#33-componenets-used)
     * [3.4 Explanation of components](#34-explanation-of-components)
-4. [Advantages](#advantages)
-5. [Applications](#applications)
+4. Test plans
+   * [4.1 High level test plan](#41-high-level-test-plan)
+   * [4.2 Low lwvwl test plan](#42-low-level-test-plan)
+6. [Advantages](#advantages)
+7. [Applications](#applications)
 
 ---
 
@@ -168,7 +171,18 @@
 [Back to Contents](#table-of-contents)
 
 ---
-## 4. Advantages
+
+## 4. Test Plans
+
+### 4.1 High level test plans
+
+
+### 4.2 Low level test plans
+
+
+---
+
+## 5. Advantages
 - Easy installation.
 - Low maintenance.
 - Compact and elegant design.
@@ -177,7 +191,7 @@
 - It can maintain exact preset water levels.
 - Being automatic saves man power.
 ---
-## 5. Applications
+## 6. Applications
 - Used in buildings where the manual monitoring is difficult.
 - Used in industries to control the water level and in chemical mixing etc.
 - It can be installed in metro cities where the drinking water is the only water used for all purposes which keeps the drinking water from being wasted. 
