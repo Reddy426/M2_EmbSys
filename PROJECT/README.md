@@ -15,8 +15,8 @@
     * [3.3 components used](#33-componenets-used)
     * [3.4 Explanation of components](#34-explanation-of-components)
 4. Test plans
-   * [4.1 High level test plan](#41-high-level-test-plan)
-   * [4.2 Low lwvwl test plan](#42-low-level-test-plan)
+   * [4.1 High level test plan](#41-high-level-test-plans)
+   * [4.2 Low lwvwl test plan](#42-low-level-test-plans)
 6. [Advantages](#advantages)
 7. [Applications](#applications)
 
