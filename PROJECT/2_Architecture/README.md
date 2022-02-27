@@ -8,7 +8,6 @@
 
 ![AWLC](https://user-images.githubusercontent.com/98537406/155879177-b5b8ba02-53be-4e79-a60d-701e2c4c67af.png)
 
-
 ---
 ### 3.3 Componenets used
 - Arduino.
@@ -17,9 +16,12 @@
 - BJT.
 - Switch.
 - LED.
-- Relay
+- Relay.
 - DC motor.
 
+[Back to Contents](#table-of-contents)
+
+---
 
 ### Software used
     - Simulation (`SimulIDE`)
@@ -27,34 +29,76 @@
 
 ### 3.4 Explanation of components
 1. `Arduino:` 
-    - Arduino is an open-source electronics platform based on easy-to-use hardware and software.
-    - Arduino boards are able to read inputs - light on a sensor, a finger on a button, or a Twitter message - and turn it into an output - activating a motor, turning on an LED, publishing something online.
-    - You can tell your board what to do by sending a set of instructions to the microcontroller on the board.
-    - To do so you use the Arduino programming language (based on Wiring), and the Arduino Software (IDE), based on Processing.
+
+![Arduino](https://user-images.githubusercontent.com/98537406/155877578-41ca9a18-7c54-4932-9705-28ec1ab634e3.png)
+
+   - Arduino UNO has the micro-controller ATmega328 embedded in it.
+   - It has 14 digital I/O pins out of which 6 provide PWR output.
+   - It is an open-source and provides prototype platform.
+   - It also has a 16MHX crystal oscillator attach to it.
+   - Inaddition to above features, it also has an USB connection,  a power jack, an ICSP, header and reset button.
+   - It can simply be connect to a computer using an USB cable or power it with an AC or a DC adapter or a bettery.
 
 2. `Ultrasonic Sensor:`
-    - An ultrasonic Sensor is an electronic device that measures the distance of a target object by emitting ultrasonic sound wave, and converts the reflected sound into an electical signal.
-    - It is economical sensor provides 2.5cm to 400cm of non-contact measurement funtionality with a ranging accuracy that can reach upto 3mm, and it includes an ultrasonic trasmitter, a receiver and a control circuit.
+
+![UltrasonicSensor](https://user-images.githubusercontent.com/98537406/155877878-0c855093-d640-40ef-8022-4f2e6245cd0e.png)
+
+    - It is basically a distance sensor and is used for detecting the distance.
+    - It has two ultrasonic transmitters namely the receiver and the control circuit.
+    - The transmitter emits a high frequency ultrasonic sound wave which bounces off from any solid object and receiver receives it as an echo.
+    - The echo is then processed by the difference between the transmitter and receiver signal.
+    - This time can subsequently be used to measure the distance between the sensor and the reflecting object.
+    - It has an ultrasonic frequency of 40 KHz and acurracy is near to 0.3 cm.
+    
 
 3. `LCD:`
+    
+    ![LCD](https://user-images.githubusercontent.com/98537406/155878092-81772001-d662-4d11-9b78-c0d8645b9e89.png)
+
+    
     - LCD csreen is a flat-panel display, electronic visual display that uses the light-modulating properties of liquid crystal and LCD's are available to display arbitrary images, Preset words, digits and 7-segment dispalys.
 
 4. `BJT:`
-    - BJT is a Bipolar Junction Transistor is a three-terminal semiconductor device that consists of two p-n junctions which are able to amplify or magnify a signal.
+   
+   ![BJT](https://user-images.githubusercontent.com/98537406/155878119-81ae3909-ff24-444a-85b5-b02e076e8b6f.png)
+
+   
+   - BJT is a Bipolar Junction Transistor is a three-terminal semiconductor device that consists of two p-n junctions which are able to amplify or magnify a signal.
     - it is a current controlled device.
     - The three-terminals of BJT are base, the collector and the emitter.
     - It does require an external source of DC power supply to carry out the amplification process.
 
 5. `Switch:` 
+    
+    ![Switch](https://user-images.githubusercontent.com/98537406/155878133-b9073421-6a7c-42d7-9b5c-d76101491f2d.png)
+    
     - It is a small
-    control for an electrial device used to make or break a connection in a circuit.
+    control for an electronic device used to make or break a connection in a circuit.
 
 6. `LED:`
+    
+    ![LED](https://user-images.githubusercontent.com/98537406/155878183-74f5e449-fc88-4ff9-b24b-449a4b04d48f.png)
+
+    
     - LED is a light-emitting diode.
     - It is a semi-conductor diode that emits light when conducting current.
+
 7. `Relay:`
-    - 
-9. `DC motor:`
+   
+   ![Relay](https://user-images.githubusercontent.com/98537406/155878245-7bd76c56-5154-4df1-b3e3-4d0529aed879.png)
+   
+   - In order to isolate two circuit electrically and to connect them magnetically relays are used.
+   - They are very useful in switching from one circuit to another when they are completely seperated.
+   - The relays comprise of an input and an output section.
+   - The input section has a coil which produces magnetic field when a small voltage from an electrical circuit is applied.
+   - This applied voltage is known as the operating voltage.
+
+8. `DC motor:`
+
+![DC motor](https://user-images.githubusercontent.com/98537406/155878364-4bb38804-a7dc-48d6-892c-9b04c99f39bf.png)
+
     - A DC motor is a class of electrical motors that converts direct current electrical energy into mechanical energy.
+    - DC motors use magnetic fields that occur from the electrical currents generated, which powers the movement of a rotar fixed within the output shaft.
+    - The output torque and speed depends upon both the electrical input and the design of the motor.
 
 ---
