@@ -2,10 +2,11 @@
 
 # Table of contents
 1. About Automatic water level indicator & control
-    * [1.1 Introduction](#11-introduction)
-    * [1.2 working of the system](#12-working-of-the-system)
-    * [1.3 SWOT Analysis](#13-swot-analysis)
-    * [1.4 4W & 1H](#14-4w--1h)
+    * [1.1 Abrstact](#11-abstract)
+    * [1.2 Introduction](#12-introduction)
+    * [1.3 working of the system](#13-working-of-the-system)
+    * [1.4 SWOT Analysis](#14-swot-analysis)
+    * [1.5 4W & 1H](#15-4w--1h)
 2. Requirements
     * [2.1 HIGH Level requirements](#21-high-level-requirements)
     * [2.2 LOW Level requirements](#22-low-level-requirements)
@@ -26,7 +27,11 @@
 
 
 # 1. About Automatic water level indicator & control
-## 1.1 Introduction
+## 1.1 Abstract
+   
+   Most of the people in reidental areas face the problem of running out of water and overflow of water in water tank due to excess supply of water. It becomes difficult for users to judge the level of water in water tanks. When the pump is turned ON, users will not realise that the water tank is filled, Which may result in overflow. Waater level indicator and controller system is used to sort out the issues associated with water tank. It is also possible to check the level of the water using sensor so that whenever the water goes below, Pump gets turned ON automatically. Also when there is overflow of water in water tank it uses sensor to detect the water level so that if the water level goes above, the pump gets turned OFF automaticlly. This system prevents wastage of water.
+
+## 1.2 Introduction
 ---
 * Water is the important natural resource that should be efficiently used. Our project `Automatic Water Level indicator & Controller` uses the `Arduino` and `Ultrasonic senser`. The Basic idea of the project is to ensure the proper use of water and reduce the wastage of water.
 * This basic idea can be implemented in many fields and purposes such as irrigation in agriculture land, water pump controlling water usage monitoring etc
@@ -39,7 +44,7 @@
 * This article explains how to detect and control the water level in an overhead tank or any other container.
 * This system monitors the water level of the tank and automatically switches ON the motor whenever the tank is empty.
 ---
-## 1.2 Working of the System
+## 1.3 Working of the System
     * In this Arduino based automatic water level indicator and controller project we are going to measure the water level by using ultrasonic sensors.
     * Basic principal of ultrasonic distance measurement is based on ECHO.
     * When sound waves are transmitted in environment then they return back to the origin as ECHO after striking on any obstacle.
@@ -54,7 +59,7 @@
 
 ---
 
-# 1.3 SWOT Analysis
+# 1.4 SWOT Analysis
 
 ![SWOT](https://user-images.githubusercontent.com/98537406/155819233-2f1a0379-3d83-4d67-87e4-a3b72dd8a1ac.png)
 
@@ -65,7 +70,7 @@
 
 ---
 
-# 1.4 4W & 1H
+# 1.5 4W & 1H
  * What:
       *  Automatic water level indicator & controller is an module that was created to automatically control a motor, which helps to ensure a constant reserve of water in a storage tank.
       * These Automatic water level indicator & controllers are used to automatically fill the over-head tank when it starts or has become empty as well as monitor the water level in it.
@@ -136,6 +141,7 @@
 - BJT.
 - Switch.
 - LED.
+- Relay.
 - DC motor.
 
 [Back to Contents](#table-of-contents)
@@ -148,34 +154,77 @@
 
 ### 3.4 Explanation of components
 1. `Arduino:` 
-    - Arduino is an open-source electronics platform based on easy-to-use hardware and software.
-    - Arduino boards are able to read inputs - light on a sensor, a finger on a button, or a Twitter message - and turn it into an output - activating a motor, turning on an LED, publishing something online.
-    - You can tell your board what to do by sending a set of instructions to the microcontroller on the board.
-    - To do so you use the Arduino programming language (based on Wiring), and the Arduino Software (IDE), based on Processing.
+
+![Arduino](https://user-images.githubusercontent.com/98537406/155877578-41ca9a18-7c54-4932-9705-28ec1ab634e3.png)
+
+   - Arduino UNO has the micro-controller ATmega328 embedded in it.
+   - It has 14 digital I/O pins out of which 6 provide PWR output.
+   - It is an open-source and provides prototype platform.
+   - It also has a 16MHX crystal oscillator attach to it.
+   - Inaddition to above features, it also has an USB connection,  a power jack, an ICSP, header and reset button.
+   - It can simply be connect to a computer using an USB cable or power it with an AC or a DC adapter or a bettery.
 
 2. `Ultrasonic Sensor:`
-    - An ultrasonic Sensor is an electronic device that measures the distance of a target object by emitting ultrasonic sound wave, and converts the reflected sound into an electical signal.
-    - It is economical sensor provides 2.5cm to 400cm of non-contact measurement funtionality with a ranging accuracy that can reach upto 3mm, and it includes an ultrasonic trasmitter, a receiver and a control circuit.
+
+![UltrasonicSensor](https://user-images.githubusercontent.com/98537406/155877878-0c855093-d640-40ef-8022-4f2e6245cd0e.png)
+
+    - It is basically a distance sensor and is used for detecting the distance.
+    - It has two ultrasonic transmitters namely the receiver and the control circuit.
+    - The transmitter emits a high frequency ultrasonic sound wave which bounces off from any solid object and receiver receives it as an echo.
+    - The echo is then processed by the difference between the transmitter and receiver signal.
+    - This time can subsequently be used to measure the distance between the sensor and the reflecting object.
+    - It has an ultrasonic frequency of 40 KHz and acurracy is near to 0.3 cm.
+    
 
 3. `LCD:`
+    
+    ![LCD](https://user-images.githubusercontent.com/98537406/155878092-81772001-d662-4d11-9b78-c0d8645b9e89.png)
+
+    
     - LCD csreen is a flat-panel display, electronic visual display that uses the light-modulating properties of liquid crystal and LCD's are available to display arbitrary images, Preset words, digits and 7-segment dispalys.
 
 4. `BJT:`
-    - BJT is a Bipolar Junction Transistor is a three-terminal semiconductor device that consists of two p-n junctions which are able to amplify or magnify a signal.
+   
+   ![BJT](https://user-images.githubusercontent.com/98537406/155878119-81ae3909-ff24-444a-85b5-b02e076e8b6f.png)
+
+   
+   - BJT is a Bipolar Junction Transistor is a three-terminal semiconductor device that consists of two p-n junctions which are able to amplify or magnify a signal.
     - it is a current controlled device.
     - The three-terminals of BJT are base, the collector and the emitter.
     - It does require an external source of DC power supply to carry out the amplification process.
 
 5. `Switch:` 
+    
+    ![Switch](https://user-images.githubusercontent.com/98537406/155878133-b9073421-6a7c-42d7-9b5c-d76101491f2d.png)
+    
     - It is a small
-    control for an electrial device used to make or break a connection in a circuit.
+    control for an electronic device used to make or break a connection in a circuit.
 
 6. `LED:`
+    
+    ![LED](https://user-images.githubusercontent.com/98537406/155878183-74f5e449-fc88-4ff9-b24b-449a4b04d48f.png)
+
+    
     - LED is a light-emitting diode.
     - It is a semi-conductor diode that emits light when conducting current.
 
-7. `DC motor:`
+7. `Relay:`
+   
+   ![Relay](https://user-images.githubusercontent.com/98537406/155878245-7bd76c56-5154-4df1-b3e3-4d0529aed879.png)
+   
+   - In order to isolate two circuit electrically and to connect them magnetically relays are used.
+   - They are very useful in switching from one circuit to another when they are completely seperated.
+   - The relays comprise of an input and an output section.
+   - The input section has a coil which produces magnetic field when a small voltage from an electrical circuit is applied.
+   - This applied voltage is known as the operating voltage.
+
+8. `DC motor:`
+
+![DC motor](https://user-images.githubusercontent.com/98537406/155878364-4bb38804-a7dc-48d6-892c-9b04c99f39bf.png)
+
     - A DC motor is a class of electrical motors that converts direct current electrical energy into mechanical energy.
+    - DC motors use magnetic fields that occur from the electrical currents generated, which powers the movement of a rotar fixed within the output shaft.
+    - The output torque and speed depends upon both the electrical input and the design of the motor.
 
 ---
 
