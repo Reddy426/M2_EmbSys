@@ -6,7 +6,8 @@
 ---
 ## 3.2 Block Diagram
 
-![AWLC](https://user-images.githubusercontent.com/98537406/155814991-eab44181-451e-4cae-9b43-74e7fa88922a.png)
+![AWLC](https://user-images.githubusercontent.com/98537406/155879177-b5b8ba02-53be-4e79-a60d-701e2c4c67af.png)
+
 
 ---
 ### 3.3 Componenets used
@@ -16,6 +17,7 @@
 - BJT.
 - Switch.
 - LED.
+- Relay
 - DC motor.
 
 
@@ -50,8 +52,9 @@
 6. `LED:`
     - LED is a light-emitting diode.
     - It is a semi-conductor diode that emits light when conducting current.
-
-7. `DC motor:`
+7. `Relay:`
+    - 
+9. `DC motor:`
     - A DC motor is a class of electrical motors that converts direct current electrical energy into mechanical energy.
 
 ---
