@@ -131,7 +131,7 @@
 ---
 ## 3.2 Block Diagram
 
-![AWLC](https://user-images.githubusercontent.com/98537406/155814991-eab44181-451e-4cae-9b43-74e7fa88922a.png)
+![AWLC](https://user-images.githubusercontent.com/98537406/155879177-b5b8ba02-53be-4e79-a60d-701e2c4c67af.png)
 
 ---
 ### 3.3 Componenets used
