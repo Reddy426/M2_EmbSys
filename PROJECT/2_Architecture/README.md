@@ -3,6 +3,10 @@
 
 ![AWLCFC](https://user-images.githubusercontent.com/98537406/155820422-ae0ec75d-fe6d-4d64-939a-be945e17d177.png)
 
+## Low level Diagram
+
+![LowLEVELdia](https://user-images.githubusercontent.com/98537406/156049407-bc2cad45-196b-4b78-9bd5-e116c1fa363d.png)
+
 ---
 ## 3.2 Block Diagram
 
