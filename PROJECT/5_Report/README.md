@@ -126,11 +126,13 @@
 
 ![AWLCFC](https://user-images.githubusercontent.com/98537406/155820422-ae0ec75d-fe6d-4d64-939a-be945e17d177.png)
 
-## LOW level deiagram
+## 3.1.1LOW level deiagram
 
 ![LowLEVELdia](https://user-images.githubusercontent.com/98537406/156926009-f85d1b68-255f-4679-a4b5-cab9dc579c87.png)
 
+## 3.1.2 USECASE Structural Diagram
 
+## 3.1.3 UML Diagram
 [Back to Contents](#table-of-contents)
 
 ---
