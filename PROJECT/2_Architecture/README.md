@@ -3,9 +3,18 @@
 
 ![AWLCFC](https://user-images.githubusercontent.com/98537406/155820422-ae0ec75d-fe6d-4d64-939a-be945e17d177.png)
 
-## Low level Diagram
+## 3.1.1Low level Diagram
 
-![LowLEVELdia](https://user-images.githubusercontent.com/98537406/156049407-bc2cad45-196b-4b78-9bd5-e116c1fa363d.png)
+![LowLEVELdia](https://user-images.githubusercontent.com/98537406/156926148-04b2a011-e439-4bf9-b0fa-959486e875f6.png)
+
+## 3.1.2 USECASE Structural Diagram
+
+![USECASE_Structural_diagram](https://user-images.githubusercontent.com/98537406/156926329-d2a974bb-051c-434a-8e34-ba4d04b272ec.png)
+
+## 3.1.3 UML Diagram
+
+![UML_diagram](https://user-images.githubusercontent.com/98537406/156926432-3eb515a2-3a13-49b9-be86-5f8d07c8b191.png)
+
 
 ---
 ## 3.2 Block Diagram
@@ -17,8 +26,6 @@
 - Arduino.
 - Ultrasonic Sensor.
 - LCD.
-- BJT.
-- Switch.
 - LED.
 - Relay.
 - DC motor.
@@ -62,24 +69,8 @@
     
     - LCD csreen is a flat-panel display, electronic visual display that uses the light-modulating properties of liquid crystal and LCD's are available to display arbitrary images, Preset words, digits and 7-segment dispalys.
 
-4. `BJT:`
-   
-   ![BJT](https://user-images.githubusercontent.com/98537406/155878119-81ae3909-ff24-444a-85b5-b02e076e8b6f.png)
 
-   
-   - BJT is a Bipolar Junction Transistor is a three-terminal semiconductor device that consists of two p-n junctions which are able to amplify or magnify a signal.
-    - it is a current controlled device.
-    - The three-terminals of BJT are base, the collector and the emitter.
-    - It does require an external source of DC power supply to carry out the amplification process.
-
-5. `Switch:` 
-    
-    ![Switch](https://user-images.githubusercontent.com/98537406/155878133-b9073421-6a7c-42d7-9b5c-d76101491f2d.png)
-    
-    - It is a small
-    control for an electronic device used to make or break a connection in a circuit.
-
-6. `LED:`
+4. `LED:`
     
     ![LED](https://user-images.githubusercontent.com/98537406/155878183-74f5e449-fc88-4ff9-b24b-449a4b04d48f.png)
 
@@ -87,7 +78,7 @@
     - LED is a light-emitting diode.
     - It is a semi-conductor diode that emits light when conducting current.
 
-7. `Relay:`
+5. `Relay:`
    
    ![Relay](https://user-images.githubusercontent.com/98537406/155878245-7bd76c56-5154-4df1-b3e3-4d0529aed879.png)
    
@@ -97,7 +88,7 @@
    - The input section has a coil which produces magnetic field when a small voltage from an electrical circuit is applied.
    - This applied voltage is known as the operating voltage.
 
-8. `DC motor:`
+6. `DC motor:`
 
 ![DC motor](https://user-images.githubusercontent.com/98537406/155878364-4bb38804-a7dc-48d6-892c-9b04c99f39bf.png)
 
