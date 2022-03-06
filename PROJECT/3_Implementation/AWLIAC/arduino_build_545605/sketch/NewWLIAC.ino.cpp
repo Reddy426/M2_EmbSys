@@ -1,6 +1,5 @@
-To program Arduino for `Automatic Water level indicator and controller`, first we define all the pin that we are going to use in the project for interfacing external devices like  `Relay` , `LCD` , `Buzzer` etc.
-
-```
+#include <Arduino.h>
+#line 1 "B:\\LTTS\\Projects\\Module2\\M2_EmbSys\\PROJECT\\3_Implementation\\AWLIAC\\NewWLIAC\\NewWLIAC.ino"
 #include<LiquidCrystal.h>
 #define trigger 10
 #define echo 11
@@ -11,12 +10,12 @@ LiquidCrystal LCD(A0,A1,A2,A3,A4,A5);
 float time=0,distance=0;
 int temp=0;
 
-```
-
-Then we initialize all the devices that we used in project in `void setup{}`
-
-```
-
+#line 11 "B:\\LTTS\\Projects\\Module2\\M2_EmbSys\\PROJECT\\3_Implementation\\AWLIAC\\NewWLIAC\\NewWLIAC.ino"
+void setup();
+#line 26 "B:\\LTTS\\Projects\\Module2\\M2_EmbSys\\PROJECT\\3_Implementation\\AWLIAC\\NewWLIAC\\NewWLIAC.ino"
+void loop();
+#line 11 "B:\\LTTS\\Projects\\Module2\\M2_EmbSys\\PROJECT\\3_Implementation\\AWLIAC\\NewWLIAC\\NewWLIAC.ino"
+void setup() {
   // put your setup code here, to run once:
   pinMode(trigger,OUTPUT);
   pinMode(echo,INPUT);
@@ -29,14 +28,10 @@ Then we initialize all the devices that we used in project in `void setup{}`
   LCD.print("Indicator");
   delay(2000);
   LCD.clear();
+}
 
-
-```
-
-Now initialize the ultrasonic sensor module and read time of sending and receving time of ultrasonic waves or sound by using pulseIn(pin). Then perform calculations and display the result on 16x2 LCD by using appropriate function. In `voide loop{}`
-
-```
-  
+void loop() {
+  // put your main code here, to run repeatedly:
   digitalWrite(trigger,LOW);
   delayMicroseconds(2);
   digitalWrite(trigger,HIGH);
@@ -53,11 +48,6 @@ Now initialize the ultrasonic sensor module and read time of sending and recevin
   LCD.print("Cm");
   delay(1000);
   LCD.clear();
-
-  ```
-  After it we check conditions if water tank is full or water level is LOW, and take action accordingly
-
-  ```
   if(distance<40 && temp==0)
   {
     digitalWrite(motor,LOW);
@@ -98,5 +88,5 @@ Now initialize the ultrasonic sensor module and read time of sending and recevin
     temp=0;
     LCD.clear();
   }
+}
 
-  ```

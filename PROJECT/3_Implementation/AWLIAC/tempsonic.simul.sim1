@@ -4,11 +4,11 @@
 <mainCompProps Frequency="16 MHz" Program="NewWLIAC/NEW/arduino_build_262537/NewWLIAC.ino.hex" Auto_Load="false" />
 </item>
 
-<item itemtype="SR04" CircId="SR04-31" mainComp="false" Show_id="false" Show_Val="false" Pos="-524,-440" rotation="0" hflip="1" vflip="1" label="SR04-31" idLabPos="-16,-48" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+<item itemtype="SR04" CircId="SR04-31" mainComp="false" Show_id="false" Show_Val="false" Pos="-516,-332" rotation="0" hflip="1" vflip="1" label="SR04-31" idLabPos="-16,-48" labelrot="0" valLabPos="-16,20" valLabRot="0" />
 
 <item itemtype="RelaySPST" CircId="RelaySPST-34" mainComp="false" Show_id="false" Show_Val="false" Pos="-760,-260" rotation="-90" hflip="1" vflip="1" label="RelaySPST-34" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="true" Poles="1 _Poles" Rcoil="100 Ω" Inductance="0.1 H" IOn="0.02 A" IOff="0.01 A" />
 
-<item itemtype="Potentiometer" CircId="Potentiometer-61" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-708,-432" rotation="0" hflip="1" vflip="1" label="Potentiometer-61" idLabPos="-16,-40" labelrot="0" valLabPos="15,-20" valLabRot="0" Resistance="130 Ω" Value_Ohm="126.23 Ω" />
+<item itemtype="Potentiometer" CircId="Potentiometer-61" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-708,-372" rotation="0" hflip="1" vflip="1" label="Potentiometer-61" idLabPos="-16,-40" labelrot="0" valLabPos="15,-20" valLabRot="0" Resistance="130 Ω" Value_Ohm="126.23 Ω" />
 
 <item itemtype="Led" CircId="Led-67" mainComp="false" Show_id="false" Show_Val="false" Pos="-580,-264" rotation="-180" hflip="1" vflip="1" label="Led-67" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
 
@@ -24,23 +24,23 @@
 
 <item itemtype="Node" CircId="Node-118" mainComp="false" Pos="-692,-272" />
 
-<item itemtype="Connector" startpinid="SR04-31-trigpin" endpinid="Uno-1-10" enodeid="Circ_eNode-105" pointList="-524,-392,-524,-144,-516,-144,-516,-128" />
+<item itemtype="Connector" startpinid="SR04-31-trigpin" endpinid="Uno-1-10" enodeid="Circ_eNode-105" pointList="-516,-284,-516,-128" />
 
 <item itemtype="Connector" startpinid="RelaySPST-34-lPin" endpinid="Uno-1-8" enodeid="Circ_eNode-106" pointList="-760,-244,-760,-160,-500,-160,-500,-128" />
 
-<item itemtype="Connector" startpinid="Potentiometer-61-PinA" endpinid="Uno-1-5V0" enodeid="Circ_eNode-108" pointList="-724,-432,-724,52,-508,52,-508,16" />
+<item itemtype="Connector" startpinid="Potentiometer-61-PinA" endpinid="Uno-1-5V0" enodeid="Circ_eNode-108" pointList="-724,-372,-724,52,-508,52,-508,16" />
 
 <item itemtype="Connector" startpinid="Node-64-2" endpinid="Node-70-0" enodeid="enode-127" pointList="-704,-200,-704,-152,-640,-152" />
 
-<item itemtype="Connector" startpinid="Potentiometer-61-PinM" endpinid="SR04-31-inpin" enodeid="Circ_eNode-110" pointList="-708,-416,-612,-416,-612,-464" />
+<item itemtype="Connector" startpinid="Potentiometer-61-PinM" endpinid="SR04-31-inpin" enodeid="Circ_eNode-110" pointList="-708,-356,-604,-356" />
 
 <item itemtype="Connector" startpinid="Led-67-lPin" endpinid="Uno-1-12" enodeid="Circ_eNode-111" pointList="-564,-264,-564,-188,-532,-188,-532,-128" />
 
 <item itemtype="Connector" startpinid="Node-70-2" endpinid="Uno-1-GND2" enodeid="enode-127" pointList="-640,-152,-548,-152,-548,-128" />
 
-<item itemtype="Connector" startpinid="SR04-31-outpin" endpinid="Uno-1-11" enodeid="Circ_eNode-112" pointList="-516,-392,-516,-152,-528,-152,-528,-128,-524,-128" />
+<item itemtype="Connector" startpinid="SR04-31-outpin" endpinid="Uno-1-11" enodeid="Circ_eNode-112" pointList="-508,-284,-508,-152,-528,-152,-528,-128,-524,-128" />
 
-<item itemtype="Connector" startpinid="Potentiometer-61-PinB" endpinid="Node-118-0" enodeid="enode-127" pointList="-692,-432,-692,-272" />
+<item itemtype="Connector" startpinid="Potentiometer-61-PinB" endpinid="Node-118-0" enodeid="enode-127" pointList="-692,-372,-692,-272" />
 
 <item itemtype="Connector" startpinid="RelaySPST-34-pinP2" endpinid="Fixed Voltage-97-outnod" enodeid="Circ_eNode-107" pointList="-776,-244,-776,-196,-804,-196,-804,-180" />
 
