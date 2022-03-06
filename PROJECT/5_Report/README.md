@@ -132,6 +132,9 @@
 
 ## 3.1.2 USECASE Structural Diagram
 
+![USECASE_Structural_diagram](https://user-images.githubusercontent.com/98537406/156926329-d2a974bb-051c-434a-8e34-ba4d04b272ec.png)
+
+
 ## 3.1.3 UML Diagram
 [Back to Contents](#table-of-contents)
 
