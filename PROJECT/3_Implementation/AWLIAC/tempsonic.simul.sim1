@@ -1,0 +1,71 @@
+<circuit type="simulide_1.0" stepSize="1000000" stepsPS="1000000" NLsteps="100000" animate="0" >
+
+<item itemtype="Subcircuit" CircId="Uno-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-604,-168" rotation="90" hflip="1" vflip="1" label="Uno-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps Frequency="16 MHz" Program="NewWLIAC/NEW/arduino_build_262537/NewWLIAC.ino.hex" Auto_Load="false" />
+</item>
+
+<item itemtype="SR04" CircId="SR04-31" mainComp="false" Show_id="false" Show_Val="false" Pos="-524,-440" rotation="0" hflip="1" vflip="1" label="SR04-31" idLabPos="-16,-48" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="RelaySPST" CircId="RelaySPST-34" mainComp="false" Show_id="false" Show_Val="false" Pos="-760,-260" rotation="-90" hflip="1" vflip="1" label="RelaySPST-34" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="true" Poles="1 _Poles" Rcoil="100 Ω" Inductance="0.1 H" IOn="0.02 A" IOff="0.01 A" />
+
+<item itemtype="Potentiometer" CircId="Potentiometer-61" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-708,-432" rotation="0" hflip="1" vflip="1" label="Potentiometer-61" idLabPos="-16,-40" labelrot="0" valLabPos="15,-20" valLabRot="0" Resistance="130 Ω" Value_Ohm="126.23 Ω" />
+
+<item itemtype="Led" CircId="Led-67" mainComp="false" Show_id="false" Show_Val="false" Pos="-580,-264" rotation="-180" hflip="1" vflip="1" label="Led-67" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-97" mainComp="false" Show_id="false" Show_Val="false" Pos="-820,-180" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-97" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Voltage="5 V" />
+
+<item itemtype="DcMotor" CircId="DcMotor-104" mainComp="false" Show_id="true" Show_Val="false" Pos="-876,-264" rotation="-90" hflip="1" vflip="1" label="DcMotor-104" idLabPos="-22,-48" labelrot="0" valLabPos="-14,36" valLabRot="0" RPM_Nominal="60 _RPM" Volt_Nominal="5 V" Resistance="100 Ω" />
+
+<item itemtype="Hd44780" CircId="Hd44780-120" mainComp="false" Show_id="true" Show_Val="false" Pos="-368,0" rotation="0" hflip="1" vflip="1" label="Hd44780-120" idLabPos="70,-82" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="2 _Lines" Cols="16 _Chars." />
+
+<item itemtype="Node" CircId="Node-64" mainComp="false" Pos="-704,-200" />
+
+<item itemtype="Node" CircId="Node-70" mainComp="false" Pos="-640,-152" />
+
+<item itemtype="Node" CircId="Node-118" mainComp="false" Pos="-692,-272" />
+
+<item itemtype="Connector" startpinid="SR04-31-trigpin" endpinid="Uno-1-10" enodeid="Circ_eNode-105" pointList="-524,-392,-524,-144,-516,-144,-516,-128" />
+
+<item itemtype="Connector" startpinid="RelaySPST-34-lPin" endpinid="Uno-1-8" enodeid="Circ_eNode-106" pointList="-760,-244,-760,-160,-500,-160,-500,-128" />
+
+<item itemtype="Connector" startpinid="Potentiometer-61-PinA" endpinid="Uno-1-5V0" enodeid="Circ_eNode-108" pointList="-724,-432,-724,52,-508,52,-508,16" />
+
+<item itemtype="Connector" startpinid="Node-64-2" endpinid="Node-70-0" enodeid="enode-127" pointList="-704,-200,-704,-152,-640,-152" />
+
+<item itemtype="Connector" startpinid="Potentiometer-61-PinM" endpinid="SR04-31-inpin" enodeid="Circ_eNode-110" pointList="-708,-416,-612,-416,-612,-464" />
+
+<item itemtype="Connector" startpinid="Led-67-lPin" endpinid="Uno-1-12" enodeid="Circ_eNode-111" pointList="-564,-264,-564,-188,-532,-188,-532,-128" />
+
+<item itemtype="Connector" startpinid="Node-70-2" endpinid="Uno-1-GND2" enodeid="enode-127" pointList="-640,-152,-548,-152,-548,-128" />
+
+<item itemtype="Connector" startpinid="SR04-31-outpin" endpinid="Uno-1-11" enodeid="Circ_eNode-112" pointList="-516,-392,-516,-152,-528,-152,-528,-128,-524,-128" />
+
+<item itemtype="Connector" startpinid="Potentiometer-61-PinB" endpinid="Node-118-0" enodeid="enode-127" pointList="-692,-432,-692,-272" />
+
+<item itemtype="Connector" startpinid="RelaySPST-34-pinP2" endpinid="Fixed Voltage-97-outnod" enodeid="Circ_eNode-107" pointList="-776,-244,-776,-196,-804,-196,-804,-180" />
+
+<item itemtype="Connector" startpinid="DcMotor-104-rPin" endpinid="Node-64-0" enodeid="enode-127" pointList="-876,-304,-816,-304,-816,-344,-704,-344,-704,-200" />
+
+<item itemtype="Connector" uid="Connector-116" startpinid="RelaySPST-34-switch0pinN" endpinid="DcMotor-104-lPin" enodeid="enode-116" pointList="-776,-276,-776,-288,-796,-288,-796,-224,-876,-224" />
+
+<item itemtype="Connector" uid="Connector-117" startpinid="RelaySPST-34-rPin" endpinid="Node-118-1" enodeid="enode-127" pointList="-760,-276,-692,-276,-692,-272" />
+
+<item itemtype="Connector" uid="Connector-119" startpinid="Node-118-2" endpinid="Node-64-1" enodeid="enode-127" pointList="-692,-272,-692,-200,-704,-200" />
+
+<item itemtype="Connector" startpinid="Led-67-rPin" endpinid="Node-70-1" enodeid="enode-127" pointList="-596,-264,-640,-264,-640,-152" />
+
+<item itemtype="Connector" uid="Connector-121" startpinid="Hd44780-120-PinRS" endpinid="Uno-1-A0" enodeid="enode-121" pointList="-352,8,-352,28,-468,28,-468,16" />
+
+<item itemtype="Connector" uid="Connector-122" startpinid="Hd44780-120-PinEn" endpinid="Uno-1-A1" enodeid="enode-122" pointList="-336,8,-336,36,-460,36,-460,16" />
+
+<item itemtype="Connector" uid="Connector-123" startpinid="Hd44780-120-dataPin7" endpinid="Uno-1-A5" enodeid="enode-123" pointList="-272,8,-272,16,-428,16" />
+
+<item itemtype="Connector" uid="Connector-124" startpinid="Hd44780-120-dataPin6" endpinid="Uno-1-A4" enodeid="enode-124" pointList="-280,8,-280,48,-436,48,-436,16" />
+
+<item itemtype="Connector" uid="Connector-125" startpinid="Hd44780-120-dataPin5" endpinid="Uno-1-A3" enodeid="enode-125" pointList="-288,8,-288,56,-444,56,-444,16" />
+
+<item itemtype="Connector" uid="Connector-126" startpinid="Hd44780-120-dataPin4" endpinid="Uno-1-A2" enodeid="enode-126" pointList="-296,8,-296,60,-452,60,-452,16" />
+
+<item itemtype="Connector" uid="Connector-127" startpinid="Hd44780-120-PinRW" endpinid="Uno-1-GND1" enodeid="enode-127" pointList="-344,8,-344,80,-500,80,-500,16" />
+
+</circuit>
