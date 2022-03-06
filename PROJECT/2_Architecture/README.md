@@ -3,9 +3,16 @@
 
 ![AWLCFC](https://user-images.githubusercontent.com/98537406/155820422-ae0ec75d-fe6d-4d64-939a-be945e17d177.png)
 
-## Low level Diagram
+## 3.1.1Low level Diagram
 
 ![LowLEVELdia](https://user-images.githubusercontent.com/98537406/156926148-04b2a011-e439-4bf9-b0fa-959486e875f6.png)
+
+## 3.1.2 USECASE Structural Diagram
+
+![USECASE_Structural_diagram](https://user-images.githubusercontent.com/98537406/156926329-d2a974bb-051c-434a-8e34-ba4d04b272ec.png)
+
+## 3.1.3 UML Diagram
+
 
 
 ---
