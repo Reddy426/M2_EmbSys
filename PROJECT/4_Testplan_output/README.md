@@ -1,4 +1,4 @@
----
+
 
 ## 4. Test Plans
 
@@ -21,7 +21,7 @@
 |LLT2 |Ultra sonic sensor Calculate the Distance Example 374.32cm |LOW Water level & Motor turned on  |LOW Water level & Motor turned on |Pass |
 
 
----
+
 
 
 ## OUTPUT
