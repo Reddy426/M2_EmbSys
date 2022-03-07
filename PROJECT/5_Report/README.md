@@ -286,6 +286,7 @@
 ## Reference
 - [Study1](https://www.thehindu.com/news/cities/Delhi/40-per-cent-of-water-supply-gets-wasted-Study/article16836247.ece )
 - [Study2](https://www.ijraset.com/fileserve.php?FID=14330)
+- [Study3](https://www.academia.edu/34342283/AUTOMATIC_WATER_LEVEL_CONTROL)
 
 ---
 ## Neaws on wastage of water
