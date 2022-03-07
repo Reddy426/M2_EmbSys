@@ -189,7 +189,16 @@
     - The echo is then processed by the difference between the transmitter and receiver signal.
     - This time can subsequently be used to measure the distance between the sensor and the reflecting object.
     - It has an ultrasonic frequency of 40 KHz and acurracy is near to 0.3 cm.
-    
+
+|Discreption |Range |
+|----|----|
+|Operating Voltage |5V |
+|Operating Current |15mA |
+|Operating frequency |40KHz |
+|Measuring angle |15 Degree |
+|Ranging accuracy |3mm |
+|Trigger input signal |10 MicroSeconds |
+|Device dimension |45x20x15mm |
 
 3. `LCD:`
     
