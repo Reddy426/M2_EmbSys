@@ -435,3 +435,11 @@ Now initialize the ultrasonic sensor module and read time of sending and recevin
 - Water level is LOW  & Motor is ON at distance > 100
 
 ![Motor on](https://user-images.githubusercontent.com/98537406/156934810-81f27cac-1ad4-46d9-8c72-f684875b515b.PNG)
+
+
+## video
+
+
+https://user-images.githubusercontent.com/98537406/157227662-214a623e-2b3d-4156-be73-d197bf3f17ff.mp4
+
+
