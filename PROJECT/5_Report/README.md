@@ -15,6 +15,7 @@
     * [3.2 Block Diagram](#32-block-diagram)
     * [3.3 components used](#33-componenets-used)
     * [3.4 Explanation of components](#34-explanation-of-components)
+    * [3.5 Schematic Diagram](#35-schematic-diagram)
 4. Test plans
    * [4.1 High level test plan](#41-high-level-test-plans)
    * [4.2 Low lwvwl test plan](#42-low-level-test-plans)
@@ -235,6 +236,13 @@
     - A DC motor is a class of electrical motors that converts direct current electrical energy into mechanical energy.
     - DC motors use magnetic fields that occur from the electrical currents generated, which powers the movement of a rotar fixed within the output shaft.
     - The output torque and speed depends upon both the electrical input and the design of the motor.
+    
+    
+    
+## 3.5 Schematic Diagram
+
+![Schematic Diagram](https://user-images.githubusercontent.com/98537406/157217159-1c7749eb-78c2-4034-8256-93a75405ff02.png)
+
 
 ---
 
