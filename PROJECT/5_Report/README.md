@@ -440,6 +440,6 @@ Now initialize the ultrasonic sensor module and read time of sending and recevin
 ## video
 
 
-https://user-images.githubusercontent.com/98537406/157227662-214a623e-2b3d-4156-be73-d197bf3f17ff.mp4
+![AWLIAC_Video](https://user-images.githubusercontent.com/98537406/157227662-214a623e-2b3d-4156-be73-d197bf3f17ff.mp4)
 
 
