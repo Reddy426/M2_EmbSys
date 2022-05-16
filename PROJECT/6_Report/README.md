@@ -18,7 +18,7 @@
     * [3.5 Schematic Diagram](#35-schematic-diagram)
 4. Test plans
    * [4.1 High level test plan](#41-high-level-test-plans)
-   * [4.2 Low lwvwl test plan](#42-low-level-test-plans)
+   * [4.2 Low level test plan](#42-low-level-test-plans)
 5. [Advantages](#5-advantages)
 6. [Applications](#6-applications)
 
